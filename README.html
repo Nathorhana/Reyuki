@@ -8,16 +8,18 @@
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<meta name="description" content="#ReyukiPowered By Hexo">
+	<meta name="description" content="Hexo-Theme-ArgonArgon-Theme 的 Hexo 移植版 关于Hexo-Theme-Argon 移植自 WordPress 版 Argon 主题。 项目状态目前没有精力维护移植版，只维护 Wordpress 版本。Wordpress 的新功能将不会来到 Hexo 版本，只进行必要的 BUG 修复。（很久没有使用 Hexo） 欢迎提交 Pull Request 贡献&#x2F;">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Reyuki">
 <meta property="og:url" content="https://reyuki.com/README.html">
 <meta property="og:site_name" content="Reyuki">
-<meta property="og:description" content="#ReyukiPowered By Hexo">
+<meta property="og:description" content="Hexo-Theme-ArgonArgon-Theme 的 Hexo 移植版 关于Hexo-Theme-Argon 移植自 WordPress 版 Argon 主题。 项目状态目前没有精力维护移植版，只维护 Wordpress 版本。Wordpress 的新功能将不会来到 Hexo 版本，只进行必要的 BUG 修复。（很久没有使用 Hexo） 欢迎提交 Pull Request 贡献&#x2F;">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-07-06T18:36:31.225Z">
-<meta property="article:modified_time" content="2023-07-06T18:26:14.018Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon_new_animate.svg">
+<meta property="article:published_time" content="2023-07-06T18:39:29.563Z">
+<meta property="article:modified_time" content="2023-07-06T17:22:24.667Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon_new_animate.svg">
 
 	<meta name="theme-color" content="#ff4081">
 	<meta name="theme-color-rgb" content="255,64,129">
@@ -564,7 +566,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2023-7-7 3:36:31 | 编辑于 2023-7-7 3:26:14">2023-7-7 3:36
+							<time title="发布于 2023-7-7 3:39:29 | 编辑于 2023-7-7 2:22:24">2023-7-7 3:39
 							</time>
 						</div>
 					
@@ -573,7 +575,100 @@
 	</header>
 
 	<div class="post-content" id="post_content">
-		<p>#Reyuki<br>Powered By Hexo</p>
+		<p><img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  data-original="https://cdn.jsdelivr.net/gh/solstice23/cdn@master/argon_new_animate.svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" alt="Argon"></p>
+
+<h1 id="Hexo-Theme-Argon"><a href="#Hexo-Theme-Argon" class="headerlink" title="Hexo-Theme-Argon"></a>Hexo-Theme-Argon</h1><p><a target="_blank" rel="noopener" href="https://github.com/solstice23/argon-theme">Argon-Theme</a> 的 Hexo 移植版</p>
+<h1 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h1><p>Hexo-Theme-Argon 移植自 WordPress 版 Argon 主题。</p>
+<h2 id="项目状态"><a href="#项目状态" class="headerlink" title="项目状态"></a>项目状态</h2><p>目前没有精力维护移植版，只维护 Wordpress 版本。Wordpress 的新功能将不会来到 Hexo 版本，只进行必要的 BUG 修复。<del>（很久没有使用 Hexo）</del></p>
+<p>欢迎提交 Pull Request 贡献&#x2F;移植新功能&#x2F;修复 BUG。</p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="1-安装并启用主题"><a href="#1-安装并启用主题" class="headerlink" title="1. 安装并启用主题"></a>1. 安装并启用主题</h2><ol>
+<li>在 <code>Hexo 根目录/themes</code> 目录下 Clone 本 Repo。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/solstice23/hexo-theme-argon.git</span><br></pre></td></tr></table></figure>
+<p>安装 ejs 渲染器。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-ejs</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li><p>重命名 Clone 后的文件夹为 <code>argon</code></p>
+</li>
+<li><p>在 <code>Hexo 根目录/_config.yml</code> 中将 <code>theme</code> 项改为 <code>argon</code></p>
+</li>
+</ol>
+<h2 id="2-修改主题配置"><a href="#2-修改主题配置" class="headerlink" title="2. 修改主题配置"></a>2. 修改主题配置</h2><ol>
+<li><p>将 <code>Hexo 根目录/themes/argon/_config.yml</code> 复制到 <code>Hexo 根目录/source/_data</code> 文件夹中，并重命名为 <code>argon.yml</code></p>
+</li>
+<li><p>修改复制后的配置文件</p>
+</li>
+</ol>
+<h2 id="3-配置搜索功能"><a href="#3-配置搜索功能" class="headerlink" title="3. 配置搜索功能"></a>3. 配置搜索功能</h2><ol>
+<li>在 <code>Hexo 根目录/themes</code> 目录下执行</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>在 <code>Hexo 根目录/_config.yml</code> 中添加选项</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: true</span><br></pre></td></tr></table></figure>
+
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><p>在 <code>Hexo 根目录/themes/argon</code> 目录中执行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure>
+
+<h1 id="文章内参数"><a href="#文章内参数" class="headerlink" title="文章内参数"></a>文章内参数</h1><p>Argon 支持给文章设定一些单独的参数，例如文章头图</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>thumbnail</td>
+<td>文章头图地址</td>
+</tr>
+<tr>
+<td>first_image_as_thumbnail</td>
+<td>该篇文章是否选用文中第一张图作为头图</td>
+</tr>
+<tr>
+<td>after_post</td>
+<td>文末附加内容</td>
+</tr>
+<tr>
+<td>excerpt</td>
+<td>文章自定义摘要</td>
+</tr>
+</tbody></table>
+<h1 id="Hexo-版相比-Wordpress-版"><a href="#Hexo-版相比-Wordpress-版" class="headerlink" title="Hexo 版相比 Wordpress 版"></a>Hexo 版相比 Wordpress 版</h1><ul>
+<li>保留了 Wordpress 版的大部分特性</li>
+<li>相同的界面</li>
+<li>暂时不支持多语言（欢迎 PR）</li>
+<li>目前仅支持 Gitalk、giscus、waline 评论系统（欢迎 PR）</li>
+</ul>
+<h1 id="Telegram-频道"><a href="#Telegram-频道" class="headerlink" title="Telegram 频道"></a>Telegram 频道</h1><p><a target="_blank" rel="noopener" href="https://t.me/argontheme">t.me&#x2F;argontheme</a></p>
+<p>自动推送更新消息以及其他关于 Argon 的消息</p>
+<blockquote>
+<p>Readme 待完善…</p>
+</blockquote>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><h2 id="20201031-v1-0-2"><a href="#20201031-v1-0-2" class="headerlink" title="20201031 v1.0.2"></a>20201031 v1.0.2</h2><ul>
+<li>新增不蒜子用于统计访问人次和文章阅读量</li>
+<li>再次修复 Page 生成问题</li>
+<li>更改高亮显示颜色为红色</li>
+<li>修复 Gitalk 评论不加载问题</li>
+<li>修复文章目录不能数字+标题的问题</li>
+</ul>
+<h2 id="20200908-v1-0-1"><a href="#20200908-v1-0-1" class="headerlink" title="20200908 v1.0.1"></a>20200908 v1.0.1</h2><ul>
+<li>修复搜索结果点击后不会关闭问题</li>
+<li>修复手机搜索按钮重复问题</li>
+<li>修复 Page 生成问题</li>
+</ul>
+<h2 id="20200905-v1-0-0"><a href="#20200905-v1-0-0" class="headerlink" title="20200905 v1.0.0"></a>20200905 v1.0.0</h2><ul>
+<li>增加文章自定义摘要</li>
+<li>支持 More 标签</li>
+<li>修复 Gitalk 边距问题</li>
+</ul>
+<h2 id="20200822-v1-0-0-beta"><a href="#20200822-v1-0-0-beta" class="headerlink" title="20200822 v1.0.0.beta"></a>20200822 v1.0.0.beta</h2><ul>
+<li>最初版本</li>
+</ul>
 
 	</div>
 </article>
